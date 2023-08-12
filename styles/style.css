@@ -247,3 +247,46 @@
   width: 660px;
   height: 636px;
 }
+
+.footer {
+  min-height: 350px;
+  background-color: black;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.footer__columns {
+  width: 90%;
+}
+
+.footer__columns_content_copyright{
+  flex-basis: 711px;
+}
+
+.logo_place_footer {
+
+}
+
+.footer__author {
+
+}
+
+.footer__columns_content_about {
+
+}
+
+.footer__column-heading {
+
+}
+
+.footer__list {
+  list-style: none;
+}
+
+.footer__column-link {
+
+}
+
+.footer__social-icons {
+
+}
