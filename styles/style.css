@@ -80,8 +80,7 @@
 .two-columns{
   width: 80%;
   display: flex;
-  justify-content: column;
-  align-items: space-between;
+  justify-content: space-between;
   margin: auto;
 }
 
@@ -95,11 +94,15 @@
 
 .two-columns__main-text {
   width: 80%;
-  min-width: 784px;
-  gap: 30px;
+  min-height: 784px;
+}
+
+.two-columns__paraghaph {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  text-align: justify;
+  row-gap: 30px;
 }
 
 .two-columns__span-accent {
