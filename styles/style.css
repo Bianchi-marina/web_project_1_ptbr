@@ -16,21 +16,22 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  background-color: #F2f2f2;
+  position: relative;
 }
 
 
 .logo_place_header {
   position: absolute;
-  z-index: 2;
   top: 30px;
   left: 64px;
   width: 154px;
   height: 31px;
+  margin: 0;
 }
 
 .header__title {
   margin-left: 64px;
-  z-index: 1;
   width: 730px;
   line-height: 96px;
   font-size: 102px;
@@ -46,10 +47,13 @@
   font-size: 18px;
   font-weight: normal;
   z-index: 1;
+  margin: 0;
 }
 
 .hearder__link {
+  text-decoration: none;
   color: #2F80ED;
+  margin: 0;
 }
 
 .header__main-illustration {
@@ -57,9 +61,9 @@
   right: 0;
   bottom: 0;
   width: 756px;
+  margin: 0;
 }
 
-/* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
   position: absolute;
   right: 0;
@@ -67,12 +71,13 @@
   height: 568px;
   width: 568px;
   background-color: #2F80ED;
-  z-index: -1;
+  margin: 0;
 }
 
 .description {
   padding-top: 100px;
   padding-bottom: 100px;
+  background-color: #F2f2f2;
 }
 
 .two-columns{
@@ -113,6 +118,7 @@
 }
 
 .digits {
+  background-color: #F2f2f2;
   padding-top: 100px;
   padding-bottom: 100px;
   margin: 0 auto;
@@ -173,9 +179,13 @@
 }
 
 .feynman {
+  background-color: #F2f2f2;
   height: 790px;
   padding-top: 100px;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: relative;
 }
 
@@ -185,7 +195,6 @@
   left: 0;
   width: 867px;
   height: 637px;
-  z-index: -1;
 }
 
 .feynman__title {
@@ -195,6 +204,7 @@
   width: 775px;
   margin: 0 auto;
   text-align: center;
+  z-index: 1;
 }
 
 .feynman__subtitle {
@@ -204,9 +214,11 @@
   margin: 0 auto;
   text-align: center;
   margin-top: 70px;
+  z-index: 1;
 }
 
 .feynman__link {
+  text-decoration: none;
   margin: 0 auto;
   line-height: 1.2;
   font-size: 36px;
@@ -214,12 +226,12 @@
   color: #2F80ED;
   position: absolute;
   top: 50%;
-  right: -48px;
+  right: 48px;
 
 }
 
 .kaufman {
- background-color: black;
+  background-color: #1F1F1F;
  padding-top: 90px;
  padding-bottom: 90px;
  overflow: hidden;
@@ -241,7 +253,7 @@
   font-weight: bold;
   position: relative;
   width: 60%;
-  color: white;
+  color: #F2f2f2;
   margin: 0 auto;
   text-align: center;
 }
@@ -251,7 +263,7 @@
   font-size: 24px;
   font-weight: normal;
   width: 60%;
-  color: white;
+  color: #F2f2f2;
   margin: 0 auto;
   text-align: center;
   margin-top: 20px;
@@ -268,7 +280,7 @@
 
 .table__cell_theme_dark {
   width: 200px;
-  color: white;
+  color: #F2f2f2;
   display: flex;
   flex-direction: column;
   row-gap: 20px;
@@ -291,7 +303,7 @@
 }
 
 .footer {
-  background-color: black;
+  background-color: #1F1F1F;
   padding-top: 60px;
   padding-bottom: 40px;
   margin: 0 auto;
@@ -330,7 +342,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  color: white;
+  color: #F2f2f2;
 }
 
 .footer__columns_content_about {
@@ -345,7 +357,7 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
-  color: white;
+  color: #F2f2f2;
 }
 
 .footer__list {
@@ -355,14 +367,16 @@
 }
 
 .footer__column-link {
+  text-decoration: none;
   margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  color: white;
+  color: #F2f2f2;
 }
 
 .footer__columns_content_social {
+  text-decoration: none;
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -371,7 +385,6 @@
   margin: 0;
   row-gap: 20px;
 }
-
 
 .footer__social-icons {
   height: 16px;
