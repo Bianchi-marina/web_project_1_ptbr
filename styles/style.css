@@ -38,15 +38,17 @@
   font-weight: bold;
 }
 
-.header__subtitle {
+.header__description {
   position: absolute;
   width: 388px;
   left: 64px;
   bottom: 30px;
+}
+
+.header__subtitle {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  z-index: 1;
   margin: 0;
 }
 
