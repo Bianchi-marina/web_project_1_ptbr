@@ -1,0 +1,89 @@
+.footer {
+  background-color: #1F1F1F;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  margin: 0 auto;
+}
+
+.footer__columns {
+  min-height: 250px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.footer__columns_content_copyright{
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.logo_place_footer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 183px;
+  height: 35px;
+}
+
+.footer__author {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #F2f2f2;
+}
+
+.footer__columns_content_about {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  row-gap: 20px;
+}
+
+.footer__column-heading {
+  margin: 0;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #F2f2f2;
+}
+
+.footer__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__column-link {
+  text-decoration: none;
+  margin: 0;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #F2f2f2;
+}
+
+.footer__columns_content_social {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 0;
+  row-gap: 20px;
+}
+
+.footer__social-icons {
+  height: 16px;
+  width: 16px;
+  padding-right: 10px;
+}
