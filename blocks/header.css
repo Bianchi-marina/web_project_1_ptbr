@@ -1,3 +1,5 @@
+@import url(../blocks/rotation.css);
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -7,6 +9,7 @@
   align-items: center;
   background-color: #F2f2f2;
   position: relative;
+  overflow: hidden;
 }
 
 
@@ -25,6 +28,7 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
+  z-index: 1;
 }
 
 .header__description {
@@ -69,4 +73,8 @@
   width: 568px;
   background-color: #2F80ED;
   margin: 0;
+}
+
+.header__square-pic {
+  rotate: -15deg;
 }
