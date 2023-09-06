@@ -7,10 +7,6 @@
  }
 }
 
-.kaufman__triangle {
-  animation: rotation 20s linear 1s infinite running;
-}
-
 .kaufman {
   background-color: #1F1F1F;
  padding-top: 90px;
@@ -26,6 +22,7 @@
   position: absolute;
   right: -124px;
   top: 0;
+  animation: rotation 20s linear 1s infinite running;
 }
 
 .kaufman__title_theme_dark {
