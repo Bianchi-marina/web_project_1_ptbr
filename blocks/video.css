@@ -3,7 +3,7 @@
   padding-top: 100px;
 }
 
-.section-title {
+.video__title {
   margin: 0;
   width: 60%;
   line-height: 1.15;
@@ -11,7 +11,7 @@
   font-weight: bold;
 }
 
-.section-subtitle {
+.video__subtitle {
   margin: 0;
   padding: 20px 0px 50px;
   width: 60%;
@@ -23,7 +23,9 @@
 .video__iframes {
   margin: 0 auto;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 20px;
 }
 
 .video__iframe {

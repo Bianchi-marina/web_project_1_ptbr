@@ -1,17 +1,18 @@
 .oakley {
   margin: 0;
-  padding-top: 160px;
+  margin-top: -30px;
+  padding-top: 130px;
   background-color: #F2f2f2;
 }
 
-.two-columns{
+.oakley__two-columns {
   width: 80%;
   display: flex;
   flex-direction: row;
   margin: 0 auto;
 }
 
-.two-columns__brief {
+.oakley__brief {
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
@@ -20,7 +21,7 @@
   margin: 0;
 }
 
-.two-columns__main-text {
+.oakley__main-text {
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -28,15 +29,9 @@
   row-gap: 30px;
 }
 
-.two-columns__paraghaph {
+.oakley__paraghaph {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
   margin: 0;
-}
-
-.two-columns__span-accent {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: bold;
 }

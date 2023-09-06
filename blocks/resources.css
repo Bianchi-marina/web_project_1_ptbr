@@ -4,7 +4,7 @@
   align-items: center;
 }
 
-.section-title {
+.resources__title {
   margin: 0 auto;
   width: 60%;
   padding-bottom: 20px;
@@ -13,7 +13,7 @@
   font-weight: bold;
 }
 
-.section-subtitle {
+.resources__subtitle {
   margin: 0 auto;
   width: 60%;
   padding-bottom: 80px;

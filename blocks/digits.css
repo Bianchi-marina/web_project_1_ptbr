@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 
-.section-title {
+.digits__title {
   margin: 0 auto;
   text-align: center;
   line-height: 1.15;
@@ -12,7 +12,7 @@
   width: 60%;
 }
 
-.section-subtitle{
+.digits__subtitle {
   margin: 0 auto;
   text-align: center;
   margin-top: 20px;
