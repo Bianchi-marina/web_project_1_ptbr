@@ -5,6 +5,7 @@
 }
 
 .resources__title {
+  text-align: center;
   margin: 0 auto;
   width: 60%;
   padding-bottom: 20px;
@@ -14,6 +15,7 @@
 }
 
 .resources__subtitle {
+  text-align: center;
   margin: 0 auto;
   width: 60%;
   padding-bottom: 80px;

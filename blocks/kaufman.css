@@ -45,6 +45,7 @@
   margin: 0 auto;
   text-align: center;
   margin-top: 20px;
+  z-index: -1;
 }
 
 .table_theme_dark {

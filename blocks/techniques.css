@@ -4,6 +4,7 @@
 }
 
 .techniques__title {
+  text-align: center;
   margin: 0 auto;
   width: 60%;
   line-height: 1.15;
@@ -12,6 +13,7 @@
  }
 
 .techniques__subtitle {
+  text-align: center;
   margin: 0 auto;
   width: 60%;
   line-height: 34px;

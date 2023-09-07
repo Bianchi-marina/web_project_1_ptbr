@@ -69,17 +69,17 @@
   font-size: 18px;
   font-weight: normal;
   color: #F2f2f2;
+  opacity: 100%;
+}
+
+.footer__column-link:hover {
+  opacity: 50%;
 }
 
 .footer__columns_content_social {
   text-decoration: none;
-  display: flex;
   flex-direction: column;
-  position: absolute;
-  right: 0;
-  top: 0;
   margin: 0;
-  row-gap: 20px;
 }
 
 .footer__social-icons {
